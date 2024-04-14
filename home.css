@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+.logo a{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    margin-left: 117px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+ul{
+    margin: 0px;
+    margin-right: 100px;
+
+}
+ul li{
+    float: left;
+    padding: 0px 10px;
+    list-style: none;
+}
+ul li a:hover{
+    color: red;
+}
+.header{
+    background-image: url('vegetables-set-left-black-slate.jpg');
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+
+}
+.content{
+    font-size: x-large;
+    position: absolute;
+    top: 50%;
+    left:50% ;
+    transform: translate(-90%,-50%);
+    color: antiquewhite;
+    text-align: center;
+
+}
+.content p{
+    padding: 0%;
+    font-size: x-large;
+}
+button{
+    background: none;
+    border-radius: 100px;
+    border: 1px solid grey;
+    color: beige;
+    background-color: grey;
+    font-size: 20px;
+    padding: 9px 20px;
+
+}
+button a:hover {
+    color: red;
+}
+
+footer {
+    background-color: #333;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-links {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 10px; 
+}
+
+footer .copyright {
+    font-size: 14px; 
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+footer ul li a:hover {
+    color: red;
+}
+

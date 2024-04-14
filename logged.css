@@ -1,0 +1,103 @@
+body {
+    background-image: url(spaghetti-1932466_1920.jpg);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+h1{
+    color: white;
+    text-align: center;
+    transform: translate(-50px,300px);
+
+}
+button h1{
+    color: whitesmoke;
+}
+button{
+    border: solid ;
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    transform: translate(850px, 325px);
+
+}
+button:hover{
+    color: red;
+}
+nav {
+    width: 100%;
+    background-color: #333;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+ul {
+    margin: 0;
+    margin-right: 20px;
+}
+
+ul li {
+    display: inline;
+    padding: 0 10px;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+footer ul li a:hover {
+    color: red;
+}
