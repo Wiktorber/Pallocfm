@@ -134,3 +134,6 @@ footer ul li a {
 footer ul li a:hover {
     color: red;
 }
+.required {
+    color: red;
+}
